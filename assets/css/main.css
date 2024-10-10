@@ -1,1 +1,63 @@
 @import url(./base.css);
+
+body {
+    font-family: var(--mainFont);
+}
+
+.header {
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 20px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.header .logo img {
+    width: 30px;
+}
+
+.header .logo a {
+    font-weight: 600;
+    color: var(--mainColor);
+}
+
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+.active {
+    font-weight: 900;
+}
+
+.nav ul li a {
+    color: black;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap:10PX;
+}
+
+.auth a {
+    border: 2px solid var(--mainColor);
+    border-radius: 5px;
+}
+
+.auth .login {
+    color: var(--mainColor);
+    font-weight: 550;
+    padding:5px 40px;
+}
+
+.auth .register {
+    color: white;
+    background-color: var(--mainColor);
+    font-weight: 500;
+    padding: 5px 30px;
+}
